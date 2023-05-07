@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML CSS Course</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&amp;display=swap" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="content">
+    <div class="container">
+      <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <a href="#">
+              <li>Головна</li>
+            </a>
+            <a href="#">
+              <li>Про нас</li>
+            </a>
+            <a href="#">
+              <li>Ціни</li>
+            </a>
+            <a href="#">
+              <li>Контакти</li>
+            </a>
+          </ul>
+        </div>
+      </nav>
+      <button class="center-button">Почати навчання</button>
+    </div>
+
+    <div class="course-container">
+      <h1>Опис курсу</h1>
+      <p>
+        На цьому курсі ви навчитеся створювати веб-сайти з використанням HTML
+        та CSS. Ви дізнаєтеся, як створювати веб-сторінки, розташовувати
+        елементи на сторінці, додавати зображення, стилізувати текст та
+        створювати анімацію. Після закінчення курсу ви зможете створювати
+        власні веб-сайти та розміщувати їх в Інтернеті.
+      </p>
+      <h1>Список тем</h1>
+
+      <div class="order">
+        <ol>
+          <li>Введення до HTML та CSS</li>
+          <li>Робота з тегами та елементами HTML</li>
+          <li>Робота з CSS та стилізація тексту</li>
+          <li>Розташування елементів на сторінці</li>
+          <li>Додавання зображень та створення анімації</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="price-container">
+      <h1>Ціни</h1>
+      <div class="cards">
+        <div class="price-card">
+          <div class="rectangle">
+            <h2>Базовий</h2>
+          </div>
+          <p>10$</p>
+          <button class="buy-button">Купити</button>
+        </div>
+        <div class="price-card">
+          <div class="rectangle">
+            <h2>Продвинутий</h2>
+          </div>
+          <p>20$</p>
+          <button class="buy-button">Купити</button>
+        </div>
+        <div class="price-card">
+          <div class="rectangle">
+            <h2>Професійний</h2>
+          </div>
+          <p>50$</p>
+          <button class="buy-button">Купити</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-us-container">
+      <h1>Про нас</h1>
+      <h2>Хто ми</h2>
+      <p>
+        Ми команда професіоналів у сфері веб-розробки, яка працює над
+        створенням цього курсу з HTML та CSS. Наша мета - допомогти нашим
+        студентам зрозуміти основи цих мов програмування та навчити їх
+        створювати веб-сторінки.
+      </p>
+
+      <h2>Викладачі</h2>
+      <p>
+        Наші викладачі мають досвід у веб-розробці та навчанні студентів. Вони
+        допоможуть вам зрозуміти найважливіші концепції та техніки
+        веб-розробки, які необхідні для створення веб-сторінок.
+      </p>
+
+      <h2>Команда</h2>
+      <p>
+        Наша команда складається з різних фахівців, які працюють над
+        створенням та підтримкою цього курсу. Ми зосереджені на забезпеченні
+        наших студентів знаннями, які вони можуть використовувати для розвитку
+        своєї кар'єри в веб-розробці.
+      </p>
+    </div>
+
+    <div class="try-container">
+      <video autoplay muted loop id="video-background">
+        <source src="video.mp4" type="video/mp4">
+      </video>
+      <form>
+        <h1>Пробне заняття</h1>
+        <input type="text" placeholder="Name" />
+        <input type="email" placeholder="Email" />
+        <button class="try-button" type="submit">Зареєструватися</button>
+      </form>
+    </div>
+
+    <footer>
+      <div class="info">
+        <div class="footer-rectangle left">
+          <p>
+            Контакти: Email: info@htmlcss.com Телефон: +1234567890 Адреса: 123
+            Main Street, Anytown, USA
+          </p>
+        </div>
+
+        <div class="footer-rectangle right">
+          <p>
+            Соціальні мережі: Facebook: facebook.com/htmlcss Twitter:
+            twitter.com/htmlcss Instagram: instagram.com/htmlcss
+          </p>
+        </div>
+      </div>
+      <div class="copyright">© 2023 HTML CSS Course. Усі права захищені.</div>
+    </footer>
+  </div>
+</body>
+
+</html>
